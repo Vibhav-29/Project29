@@ -1,0 +1,401 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet"href="snacks.css"> 
+	<title>GrociQuest</title> 
+</head> 
+
+<body> 
+
+	<header> 
+		<div class="navbar"> 
+			<div class="logo"> 
+				<span> 
+					<p>GrociQuest</p> 
+				</span> 
+			</div> 	
+			<nav>
+			<ul>
+                <li><a href="home.html#HOME">Home</a></li>
+				<li class="dropdown">
+					<a href="#">Groceries</a>
+					<div class="dropdown-content">
+						<a href="vegges.html">vegges</a>
+						<a href="fruits.html">Fruits</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Snacks</a>
+					<div class="dropdown-content">
+						<a href="#snacks">Snacks</a>
+						<a href="bar.html">Protienbar</a>
+						<a href="chocolate.html">Chocolate</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Drinks</a>
+					<div class="dropdown-content">
+						<a href="Drinks.html">SoftDrinks</a>
+						<a href="juices.html">Fruitjuices</a>
+					</div>
+				</li>
+				<li><a href="cart.html">Cart</a></li>
+				<span id="cart-count">0</span>
+            </ul>
+
+		</nav>
+		</header>
+
+	    <div class="container"> 
+		 <section> 
+			<h2 id="SNACKS"> 
+				SNACKS
+			</h2> 
+
+			<div class="category"> 
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder1"> 
+						<img src= "https://mcprod.spencers.in/media/catalog/product/1/0/1007104.jpg"alt="grocery"> 
+					</div> 
+					<h3>KURKURE GREEN CHUTNEY</h3> 
+					<p class="price">₹20</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS1"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS1" value = "1" min="1" max = "10"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder2"> 
+						<img src= "https://www.quickpantry.in/cdn/shop/products/kurkure-masala-munch-45-g-quick-pantry_500x500.jpg?v=1710539165"alt="grocery"> 
+					</div> 
+					<h3>KURKURE MASALA MUNCH</h3> 
+					<p class="price">₹10</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS2"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS2"value="1" min ="1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder3"> 
+						<img src= "https://images-cdn.ubuy.co.in/64b96328994a6e2c731ba34a-kurkure-namkeen-chilli-chatka-94-g.jpg"alt="grocery"> 
+					</div> 
+					<h3>KURKURE CHILLI CHATKA</h3> 
+					<p class="price">₹20</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS3"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS3"value="1" min ="1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder4"> 
+						<img src= "https://m.media-amazon.com/images/I/71J93R3+TkL.AC_UF1000,1000_QL80.jpg"alt="grocery"> 
+					</div> 
+					<h3>LAYS MAGIC MASALA</h3> 
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS4"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS4"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>  
+
+			    <div class="product"> 
+					<div class="image-placeholder image-placeholder5"> 
+        				 <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPVcMIMg6p8fRJIkGf2t8szv-p9wm8j8QnYbZVfEihyw&s"alt="grocery">
+					</div> 
+					<h3>LAYS CHILLI LEMON</h3> 
+					<p class="price">₹20</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS5"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS5"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+				
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder6"> 
+        				 <img src= "https://www.ubuy.co.in/productimg/?image=aHR0cHM6Ly9pbWFnZXMtY2RuLnVidXkuY28uaW4vNjM1MTJkNzVkOTU2OTI0MTk1NGE3ZmU5LWxheS0zOS1zLWNsYXNzaWMtcG90YXRvLWNoaXBzLmpwZw.jpg"alt="grocery">
+					</div> 
+					<h3>LAYS CLASSIC SALT</h3> 
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS6"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS6"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button> 
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder7"> 
+        				 <img src= "https://m.media-amazon.com/images/I/71SjZUrMwsL.jpg"alt="grocery">
+					</div> 
+					<h3>Kurkure Puffcorn</h3> 
+					<p class="price">₹20</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS7"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS7"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder8"> 
+        				 <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0db5drbPv2y50d1Q8Hp_128JKvAjtaQ6SsrOkk0x4Vke6yCNwdLBTNm3YH4GzAosqdLg&usqp=CAU"alt="grocery">
+					</div> 
+					<h3>LAYS Cream&onion </h3> 
+					<p class="price">₹20</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS8"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS8"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder9"> 
+        				 <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFW9xok6-Gt_-I671TKPowkkhzcNJAMg_iBbuJs-BY6K-Z5YEsgnX4hxB45irDZRBZN1k&usqp=CAU"alt="grocery">
+					</div> 
+					<h3>LAYS Flamin Hot</h3> 
+					<p class="price">₹20</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS9"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS9"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder10"> 
+        				 <img src= "https://www.bigbasket.com/media/uploads/p/l/294278_22-lays-potato-chips-hot-sweet-chilli-flavour-best-quality.jpg"alt="grocery">
+					</div> 
+					<h3>LAYS Hot'n'Sweet Chilli</h3> 
+					<p class="price">₹10</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS10"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS10"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>
+
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder11"> 
+        				 <img src= "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=900/app/images/products/sliding_image/260233a.jpg?ts=1654073455"alt="grocery">
+					</div> 
+					<h3>PikNik Tomato Chilli</h3> 
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS11"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS11"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>
+
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder12"> 
+        				 <img src= "https://www.bigbasket.com/media/uploads/p/xxl/40310323_1-piknik-puffs-red-hot.jpg"alt="grocery">
+					</div> 
+					<h3>PikNik Puffs (Red Hot)</h3> 
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS12"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS12"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>
+
+
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder13"> 
+        				 <img src= "https://www.bigbasket.com/media/uploads/p/l/40310322_1-piknik-puffs-chilli-cheese.jpg"alt="grocery">
+					</div> 
+					<h3>PikNik Puffs (chilli cheese)</h3> 
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS13"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS13"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder14"> 
+        				 <img src= "https://tiimg.tistatic.com/fp/1/007/440/original-style-chilli-sprinkled-tasty-hot-salty-bingo-potato-chips-736.jpg"alt="grocery">
+					</div> 
+					<h3>Bingo Original Style</h3> 
+					<p class="price">₹20</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS14"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS14"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button> 
+						<button>Buy Now</button> 
+					</div> 
+				</div>
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder15"> 
+        				 <img src= "https://rukminim2.flixcart.com/image/850/1000/xif0q/chips/u/u/l/-original-imagrhfpvqhevfyg.jpeg?q=90"alt="grocery">
+					</div> 
+					<h3>FunFlips(Hot&Sauce)</h3> 
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_SNACKS15"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_SNACKS15"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>
+		</section> 
+		
+
+
+		
+	<footer> 
+		<p>© 2024 Grocery Store. 
+			All rights reserved. 
+		</p> 
+	</footer> 
+	<script src="snacks.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		const addToCartButtons = document.querySelectorAll('.add-to-cart');
+	
+		
+		function addToCart(item) {
+			let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+			cartItems.push(item); 
+			localStorage.setItem('cartItems', JSON.stringify(cartItems)); 
+			updateCartCount(); 
+		}
+	
+		
+		function updateCartCount() {
+			const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+			document.getElementById('cart-count').textContent = cartItems.length;
+		}
+	
+		
+		addToCartButtons.forEach(button => {
+			button.addEventListener('click', function () {
+				const product = this.closest('.product');
+				const productName = product.querySelector('h3').textContent;
+				const productPrice = parseFloat(product.querySelector('.price').textContent.slice(1));
+				const productQuantity = parseInt(product.querySelector('input[type="number"]').value);
+				const productImage = product.querySelector('img').src;
+	
+				addToCart({ name: productName, price: productPrice, quantity: productQuantity, image: productImage });
+			});
+		});
+	
+		updateCartCount();
+	});
+	</script>
+
+</body>
+
+</html>

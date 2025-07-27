@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+    background-image: url(https://img.freepik.com/premium-vector/seamless-shopping-cart-pattern-white-background-simple-shopping-cart-icon-creative-design_159242-12502.jpg);
+    background-position: center;
+    background-size: contain;
+
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+
+#no-items-msg {
+    display: inline-block; 
+    color: black; 
+    font-style: bold; 
+    margin-right: 10px; 
+    white-space: nowrap;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#cart-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display three items per row */
+    grid-gap: 20px; /* Add space between items */
+}
+
+.cart-item {
+    width: calc(100% - 20px); /* Set the width to 100% minus the grid gap */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.cart-item img {
+    max-width: 100px; 
+    max-height: 100px;
+    margin-bottom: 10px; 
+}
+footer { 
+	background-color: limegreen; 
+	color: black; 
+	text-align: center; 
+	padding: 10px; 
+	position: relative; 
+	bottom: 0; 
+	width: auto; 
+	padding: 1rem 0rem; 
+} 
+
+footer p { 
+	margin: 0; 
+	font-size: 0.9em; 
+} 

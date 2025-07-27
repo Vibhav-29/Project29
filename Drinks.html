@@ -1,0 +1,414 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet"
+		href="drink.css"> 
+	<title>GrociQuest</title> 
+</head> 
+
+<body> 
+
+	<header> 
+		<div class="navbar"> 
+			<div class="logo"> 
+				<span> 
+					<p>GrociQuest</p> 
+				</span> 
+			</div> 	
+			<nav>
+			<ul>
+                <li><a href="home.html">Home</a></li>
+				<li class="dropdown">
+					<a href="#">Groceries</a>
+					<div class="dropdown-content">
+						<a href="vegges.html">vegges</a>
+						<a href="fruits.html">Fruits</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Snacks</a>
+					<div class="dropdown-content">
+						<a href="snacks.html">Snacks</a>
+						<a href="bar.html">Protienbar</a>
+						<a href="chocolate.html">Chocolate</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Drinks</a>
+					<div class="dropdown-content">
+						<a href="#Drinks">SoftDrinks</a>
+						<a href="juices.html">Fruitjuices</a>
+					</div>
+				</li>
+				<li><a href="cart.html" id="cart-link">Cart</a></li>
+				<span id="cart-count">0</span>
+               
+            </ul>
+		</nav>
+	</header>
+	<header>
+			<div class="search"> 
+				<input type="text"placeholder="Search products...."> 
+				<button>Search</button> 
+			</div> 
+	</header> 
+
+	    <div class="container"> 
+		 <section> 
+			
+
+			<div class="category"> 
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder1"> 
+						<img src= "https://www.coca-cola.com/content/dam/onexp/us/en/brands/coca-cola-original/en_coca-cola-original-taste-20-oz_750x750_v1.jpg"alt="grocery"> 
+					</div> 
+					<h3>Coca Cola</h3> 
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink1"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink1" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div> 
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder2"> 
+						<img src= "https://www.coca-cola.com/content/dam/onexp/gb/en/product/sprite-low-cal-02.png"alt="grocery"> 
+					</div> 
+					<h3> Sprite</h3>
+					<p class="price">₹20</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink2"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink2" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						<button class="add-to-cart">Add to Cart</button> 
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder3"> 
+						<img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYF3iowvSU10z0sg2ddZowE5yk59UqWJpEFE_nQAeVxw&s"alt="grocery"> 
+					</div> 
+					<h3>Pepsi</h3>
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink3"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink3" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder4"> 
+						<img src= "https://images-cdn.ubuy.co.in/6485c6eb98f5972b4d6a8330-fanta-orange-soda-20-fl-oz-bottle.jpg"alt="grocery"> 
+					</div> 
+					<h3>Fanta</h3>
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink4"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink4" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder5"> 
+						<img src= "https://www.bigbasket.com/media/uploads/p/xxl/40094180-9_3-mirinda-soft-drink.jpg"alt="grocery"> 
+					</div> 
+					<h3>Mrinda</h3>
+					<p class="price">₹50</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink5"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink5" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder6"> 
+						<img src="https://www.bigbasket.com/media/uploads/p/l/265874_5-mountain-dew-soft-drink.jpg"alt="grocery"> 
+					</div> 
+					<h3>Mountain Dew</h3>
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink6"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink6" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder7"> 
+						<img src= "https://www.bigbasket.com/media/uploads/p/xl/1209607-2_3-7-up-soft-drink-lemon.jpg"alt="grocery"> 
+					</div> 
+					<h3>7up</h3> 
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink7"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink7" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder8"> 
+						<img src= "https://www.coca-cola.com/content/dam/onexp/ng/home-image/brands/limca/packshot%20desktop.jpg"alt="grocery"> 
+					</div> 
+					<h3>Limca</h3> 
+					<p class="price">₹20</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink8"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink8" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder9"> 
+						<img src= "https://paneco-sg-moonshine-production-s3-amazonaws-com.global.ssl.fastly.net/x1zz0t2ohq0pzelcpm7103zaagra?auto=webp&format=jpg"alt="grocery"> 
+					</div> 
+					<h3>CocaCola Classic Can</h3> 
+					<p class="price">₹50</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink9"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink9" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder10"> 
+						<img src= "https://masonfoods.co.uk/wp-content/uploads/2023/08/SPRITE-CANS-24X330ML.jpg"alt="grocery"> 
+					</div> 
+					<h3> Sprite Can</h3> 
+					<p class="price">₹40</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink10"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink10" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder11"> 
+						<img src= "https://halitlar.com/file/foodsbeverages/pepsi-coke-can-of-coke-330-ml_600."alt="grocery"> 
+					</div> 
+					<h3>Pepsi Can</h3> 
+					<p class="price">₹50</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink11"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink11" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder12"> 
+						<img src= "https://www.royalpizza.co.th/wp-content/uploads/2019/02/orange-fanta-1.jpg"alt="grocery"> 
+					</div> 
+					<h3>FaNtA Can</h3> 
+					<p class="price">₹60</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink12"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink12" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder13"> 
+						<img src= "https://tiimg.tistatic.com/fp/1/005/358/original-mountain-dew-12-oz-cans-pack-of-24-058.jpg"alt="grocery"> 
+					</div> 
+					<h3> Mountain DeW Can</h3> 
+					<p class="price">₹40</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink13"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink13" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder14"> 
+						<img src= "https://www.bigbasket.com/media/uploads/p/xxl/292396_7-7-up-soft-drink-lemon.jpg"alt="grocery"> 
+					</div> 
+					<h3> 7up Can</h3> 
+					<p class="price">₹50</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink14"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink14" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder15"> 
+						<img src= "https://5.imimg.com/data5/SELLER/Default/2023/8/337506453/KS/DD/CH/195426709/thums-up-330ml-carbonated-drink.jpg"alt="grocery"> 
+					</div> 
+					<h3> Thumbs Up Can</h3>
+					<p class="price">₹60</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink15"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink15" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder16"> 
+						<img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Op1wjS7KjLSgE-jDYN-0nq1g7vn1-i0eJxQBodvqIKnL4vitEQPuZzKLSSB_E0eGpF4&usqp=CAU"alt="grocery"> 
+					</div> 
+					<h3> Diet Coke</h3>
+					<p class="price">₹70</p> 
+					<div class="qyt"> 
+						<label for="quantity_BAR16"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="BAR16" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+		</section> 
+		
+
+
+		
+	<footer> 
+		<p>© 2024 Grocery Store. 
+			All rights reserved. 
+		</p> 
+	</footer> 
+	<script src="drink.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		const addToCartButtons = document.querySelectorAll('.add-to-cart');
+	
+		
+		function addToCart(item) {
+			let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+			cartItems.push(item); 
+			localStorage.setItem('cartItems', JSON.stringify(cartItems)); 
+			updateCartCount(); 
+		}
+	
+		
+		function updateCartCount() {
+			const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+			document.getElementById('cart-count').textContent = cartItems.length;
+		}
+	
+		
+		addToCartButtons.forEach(button => {
+			button.addEventListener('click', function () {
+				const product = this.closest('.product');
+				const productName = product.querySelector('h3').textContent;
+				const productPrice = parseFloat(product.querySelector('.price').textContent.slice(1));
+				const productQuantity = parseInt(product.querySelector('input[type="number"]').value);
+				const productImage = product.querySelector('img').src;
+	
+				addToCart({ name: productName, price: productPrice, quantity: productQuantity, image: productImage });
+			});
+		});
+	
+		updateCartCount();
+	});
+	
+	   </script>
+
+</body>
+
+</html>

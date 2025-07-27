@@ -1,0 +1,405 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet"href="fruits.css"> 
+	<title>GrociQuest</title> 
+</head> 
+
+<body> 
+
+	<header> 
+		<div class="navbar"> 
+			<div class="logo"> 
+				<span> 
+					<p>GrociQuest</p> 
+				</span> 
+			</div> 	
+			<nav>
+			<ul>
+                <li><a href="home.html#HOME">Home</a></li>
+				<li class="dropdown">
+					<a href="#">Groceries</a>
+					<div class="dropdown-content">
+						<a href="vegges.html">vegges</a>
+						<a href="#fruits">Fruits</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Snacks</a>
+					<div class="dropdown-content">
+						<a href="snacks.html">Snacks</a>
+						<a href="bar.html">Protienbar</a>
+						<a href="chocolate.html">Chocolate</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Drinks</a>
+					<div class="dropdown-content">
+						<a href="Drinks.html">SoftDrinks</a>
+						<a href="juices.html">Fruitjuices</a>
+					</div>
+				</li>
+				<li><a href="cart.html">Cart</a></li>
+				<span id="cart-count">0</span>
+            </ul>
+
+		</nav>
+		</header>
+
+	    <div class="container"> 
+		 <section> 
+			
+			<div class="category"> 
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder1"> 
+						<img src= "https://www.svz.com/wp-content/uploads/2018/05/Mango.jpg"alt="grocery"> 
+					</div> 
+					<h3>MANGO</h3> 
+					<p class="price">₹90/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS1"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS1" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder2"> 
+						<img src= "https://www.100daysofrealfood.com/wp-content/uploads/2023/09/shutterstock_23429146.jpg"alt="grocery"> 
+					</div> 
+					<h3>STRAWBERRY</h3> 
+					<p class="price">₹75/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS2"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS2"value="1" min ="1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button> 
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder3"> 
+						<img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMFhfCdy9l-SF8s3lOta4yteC1OE2ckFXUdKNr0T6E8fN25gPmkyo7j7OII2Z2r8VvdqQ&usqp=CAU"alt="grocery"> 
+					</div> 
+					<h3>Orange</h3> 
+					<p class="price">₹110/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS3"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS3"value="1" min ="1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder4"> 
+						<img src= "https://cdn.viva.org.uk/wp-content/uploads/2020/02/Bananas-590x332.jpg"alt="grocery"> 
+					</div> 
+					<h3>BANANA (6 pcs)</h3> 
+					<p class="price">₹50</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS4"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS4"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>  
+
+			    <div class="product"> 
+					<div class="image-placeholder image-placeholder5"> 
+        				 <img src= "https://urjaseeds.com/cdn/shop/products/Picture6_356d5948-f3c8-4fe2-9887-79069c23c0d6_900x.jpg?v=1591366982"alt="grocery">
+					</div> 
+					<h3>WATERMELON</h3> 
+					<p class="price">₹80/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS5"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS5"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+				
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder6"> 
+        				 <img src= "https://earthwholefood.com.au/wp-content/uploads/2020/11/837_pineapple_1_2.jpg"alt="grocery">
+					</div> 
+					<h3>PINEAPPLE</h3> 
+					<p class="price">₹70/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS6"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS6"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+
+
+
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder7"> 
+        				 <img src= "https://static.libertyprim.com/files/familles/cerise-large.jpg?1569271737"alt="grocery">
+					</div> 
+					<h3>Cherry (200g)</h3> 
+					<p class="price">₹70 </p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS7"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS7"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button> 
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder8"> 
+        				 <img src= "https://moshimsmmk.nz/wp-content/uploads/2023/03/grapes_green_1200x1200.webp"alt="grocery">
+					</div> 
+					<h3>Grapes (500g)</h3> 
+					<p class="price">₹50</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS8"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS8"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder9"> 
+        				 <img src= "https://product-images.metro.ca/images/h5c/h67/11073850966046.jpg"alt="grocery">
+					</div> 
+					<h3>Blue berry (200g)</h3> 
+					<p class="price">₹220</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS9"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS9"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+
+
+
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder10"> 
+        				 <img src= "https://www.spencers.in/media/catalog/product/1/0/1030532_1.jpg"alt="grocery">
+					</div> 
+					<h3>Promogrante (3pcs)</h3> 
+					<p class="price">₹200</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS10"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS10"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+
+
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder11"> 
+        				 <img src= "https://static.libertyprim.com/files/familles/pomme-large.jpg?1569271834"alt="grocery">
+					</div> 
+					<h3>Apple</h3> 
+					<p class="price">₹189/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS11"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS11"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder12"> 
+        				 <img src= "https://fruitboxco.com/cdn/shop/products/6bcdff72-6a9b-4677-aa1f-bf266d5e4356_800x.png?v=1602657754"alt="grocery">
+					</div> 
+					<h3>Dragon Fruit(300g - 400g)</h3> 
+					<p class="price">₹60</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS12"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS12"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder13"> 
+        				 <img src= "https://frutasyverdurasacosta.com/wp-content/uploads/2018/09/LITCHI.jpg"alt="grocery">
+					</div> 
+					<h3>Litchi</h3> 
+					<p class="price">₹245</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS13"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS13"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder14"> 
+        				 <img src= "https://thecoconutmama.com/wp-content/uploads/2023/03/how-long-does-a-coconut-last-jpg.webp"alt="grocery">
+					</div> 
+					<h3>Coconut (2pcs)</h3> 
+					<p class="price">₹30</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS14"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS14"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder15"> 
+        				 <img src= "https://i0.wp.com/nextcashandcarry.com.ng/wp-content/uploads/2022/06/15340271_odogwubitters_jpegee34666f0fa57c56217d35b4a26e7e7a.jpg?fit=800%2C800&ssl=1"alt="grocery">
+					</div> 
+					<h3>Kiwi (6 pcs)</h3> 
+					<p class="price">₹170</p> 
+					<div class="qyt"> 
+						<label for="quantity_FRUITS15"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_FRUITS15"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+		</section> 		
+	<footer> 
+		<p>© 2024 Grocery Store. 
+			All rights reserved. 
+		</p> 
+	</footer> 
+	<script src="fruit.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		const addToCartButtons = document.querySelectorAll('.add-to-cart');
+	
+		
+		function addToCart(item) {
+			let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+			cartItems.push(item); 
+			localStorage.setItem('cartItems', JSON.stringify(cartItems)); 
+			updateCartCount(); 
+		}
+	
+		
+		function updateCartCount() {
+			const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+			document.getElementById('cart-count').textContent = cartItems.length;
+		}
+	
+		
+		addToCartButtons.forEach(button => {
+			button.addEventListener('click', function () {
+				const product = this.closest('.product');
+				const productName = product.querySelector('h3').textContent;
+				const productPrice = parseFloat(product.querySelector('.price').textContent.slice(1));
+				const productQuantity = parseInt(product.querySelector('input[type="number"]').value);
+				const productImage = product.querySelector('img').src;
+	
+				addToCart({ name: productName, price: productPrice, quantity: productQuantity, image: productImage });
+			});
+		});
+	
+		updateCartCount();
+	});
+	</script>
+
+</body>
+
+</html>

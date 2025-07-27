@@ -1,0 +1,413 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet"
+		href="juice.css"> 
+	<title>GrociQuest</title> 
+</head> 
+
+<body> 
+
+	<header> 
+		<div class="navbar"> 
+			<div class="logo"> 
+				<span> 
+					<p>GrociQuest</p> 
+				</span> 
+			</div> 	
+			<nav>
+			<ul>
+                <li><a href="home.html#HOME">Home</a></li>
+				<li class="dropdown">
+					<a href="#">Groceries</a>
+					<div class="dropdown-content">
+						<a href="vegges.html">vegges</a>
+						<a href="fruits.html">Fruits</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Snacks</a>
+					<div class="dropdown-content">
+						<a href="snacks.html">Snacks</a>
+						<a href="bar.html">Protienbar</a>
+						<a href="chocolate.html">Chocolate</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Drinks</a>
+					<div class="dropdown-content">
+						<a href="Drinks.html">SoftDrinks</a>
+						<a href="#juices">Fruitjuices</a>
+					</div>
+				</li>
+				<li><a href="cart.html">Cart</a></li>
+				<span id="cart-count">0</span>
+            </ul>
+		</nav>
+	</header>
+	<header>
+			<div class="search"> 
+				<input type="text"placeholder="Search products...."> 
+				<button>Search</button> 
+			</div> 
+	</header> 
+
+	    <div class="container"> 
+		 <section> 
+			
+
+			<div class="category"> 
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder1"> 
+						<img src= "https://www.bigbasket.com/media/uploads/p/xxl/265695-2_18-maaza-mango-drink.jpg"alt="grocery"> 
+					</div> 
+					<h3>MaaZa</h3> 
+					<p class="price">₹60</p> 
+					<div class="qyt"> 
+						<label for="quantity_jucie1"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice1" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div> 
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder2"> 
+						<img src= "https://cccapi.cococa.in/public/uploads/product_images/product_image_1200x1200/test-1200x1200%20Frooti%20Mango%20Drink%20160%20Ml.jpg"alt="grocery"> 
+					</div> 
+					<h3> Frooti</h3>
+					<p class="price">₹20</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice2"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice2" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button> 
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder3"> 
+						<img src= "https://www.bigbasket.com/media/uploads/p/xxl/1203080-2_3-real-fruit-power-orange.jpg"alt="grocery"> 
+					</div> 
+					<h3>Real Fruit Juice</h3>
+					<p class="price">₹120</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice3"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice3" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder4"> 
+						<img src= "https://m.media-amazon.com/images/I/71SxQH0x7sL._AC_UF1000,1000_QL80_.jpg"alt="grocery"> 
+					</div> 
+					<h3>Real Fruit Juice</h3>
+					<p class="price">₹110</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice4"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice4" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+				
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder5"> 
+						<img src= "https://gharstuff.com/wp-content/uploads/2018/10/Real-Fruit-Power-Cranberry-Juice-1ltr.jpg"alt="grocery"> 
+					</div> 
+					<h3>Real Fruit Juice </h3>
+					<p class="price">₹150</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice5"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice5" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder6"> 
+						<img src="https://www.dabur.com/sites/default/files/2021-06/1Lt-GuavaLR.jpg"alt="grocery"> 
+					</div> 
+					<h3>Real Fruit Juice</h3>
+					<p class="price">₹130</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice6"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice6" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder7"> 
+						<img src= "https://m.media-amazon.com/images/I/711i2030miL.jpg"alt="grocery"> 
+					</div> 
+					<h3>Real Fruit juice</h3> 
+					<p class="price">₹160</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice7"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice7" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder8"> 
+						<img src= "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=900/app/assets/products/sliding_images/jpeg/ae1f3a86-0b18-4893-a0e4-19de9e7c3a7a.jpg?ts=1708589002"alt="grocery"> 
+					</div> 
+					<h3>Minute Maid </h3> 
+					<p class="price">₹40</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice8"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice8" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder9"> 
+						<img src= "https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/minute-maid-tetra/mmtetra-resize-desktop/5.png/width1960.png"alt="grocery"> 
+					</div> 
+					<h3>Minute Maid Honey Infused - Apple</h3> 
+					<p class="price">₹250</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice9"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice9" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder10"> 
+						<img src= "https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/minute-maid-tetra/mmtetra-resize-desktop/4.png/width1960.png"alt="grocery"> 
+					</div> 
+					<h3> Minute Maid Honey Infused - Guava</h3> 
+					<p class="price">₹240</p> 
+					<div class="qyt"> 
+						<label for="quantity_drink10"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="drink10" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder11"> 
+						<img src= "https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/minute-maid-tetra/mmtetra-resize-desktop/2.png/width1960.png"alt="grocery"> 
+					</div> 
+					<h3>Minute Maid Honey Infused - Mixed fruit</h3> 
+					<p class="price">₹250</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice11"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice11" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder12"> 
+						<img src= "https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/minute-maid-tetra/mmtetra-resize-desktop/3.png/width1960.png"alt="grocery"> 
+					</div> 
+					<h3>Minute Maid  Vita Punch - Mixed Fruit</h3> 
+					<p class="price">₹60</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice12"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice12" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder13"> 
+						<img src= "https://www.rawpressery.com/cdn/shop/files/asdfghj.jpg?v=1683872106&width=3840"alt="grocery"> 
+					</div> 
+					<h3> RaW </h3> 
+					<p class="price">₹40</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice13"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice13" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder14"> 
+						<img src= "https://thegourmetoutlet.in/cdn/shop/files/9445631-1688642814184..png?v=1700826886&width=1445"alt="grocery"> 
+					</div> 
+					<h3> RaW - MixedFruit</h3> 
+					<p class="price">₹60</p> 
+					<div class="qyt"> 
+						<label for="quantity_jucie14"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice14" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder15"> 
+						<img src= "https://freshclub.co.in/cdn/shop/products/pomegranate_250ml_p1_1n.jpg?v=1655986819"alt="grocery"> 
+					</div> 
+					<h3> RaW-Pomegrante</h3>
+					<p class="price">₹60</p> 
+					<div class="qyt"> 
+						<label for="quantity_juice15"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="juice15" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+                <div class="product"> 
+					<div class="image-placeholder image-placeholder16"> 
+						<img src= "https://freshclub.co.in/cdn/shop/products/guava_250ml_p1_1n.jpg?v=1655986819"alt="grocery"> 
+					</div> 
+					<h3> RaW-Guava</h3>
+					<p class="price">₹70</p> 
+					<div class="qyt"> 
+						<label for="quantity_BAR16"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="BAR16" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div>
+
+		</section> 
+		
+
+
+		
+	<footer> 
+		<p>© 2024 Grocery Store. 
+			All rights reserved. 
+		</p> 
+	</footer> 
+<script src="jucies.js"></script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+	const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+	
+	function addToCart(item) {
+		let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+		cartItems.push(item); 
+		localStorage.setItem('cartItems', JSON.stringify(cartItems)); 
+		updateCartCount(); 
+	}
+
+	
+	function updateCartCount() {
+		const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+		document.getElementById('cart-count').textContent = cartItems.length;
+	}
+
+	
+	addToCartButtons.forEach(button => {
+		button.addEventListener('click', function () {
+			const product = this.closest('.product');
+			const productName = product.querySelector('h3').textContent;
+			const productPrice = parseFloat(product.querySelector('.price').textContent.slice(1));
+			const productQuantity = parseInt(product.querySelector('input[type="number"]').value);
+			const productImage = product.querySelector('img').src;
+
+			addToCart({ name: productName, price: productPrice, quantity: productQuantity, image: productImage });
+		});
+	});
+
+	updateCartCount();
+});
+</script>
+</body>
+
+</html>

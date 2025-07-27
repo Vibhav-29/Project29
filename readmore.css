@@ -1,0 +1,32 @@
+/* Apply background image and center content */
+
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn1q1pO51CUoFhAQ2-1IeXOlD2tevIYeLQ-Q&s');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style for the content */
+.content {
+    max-width: 800px; /* Adjust as needed */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity */
+    text-align: center;
+}
+
+/* Style for paragraphs */
+.content p {
+    margin-bottom: 20px;
+    /* Add any additional styles you want for your paragraphs */
+}

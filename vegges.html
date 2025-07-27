@@ -1,0 +1,395 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet"
+		href="vegges.css"> 
+	<title>GrociQuest</title> 
+</head> 
+<body> 
+
+	<header> 
+		<div class="navbar"> 
+			<div class="logo"> 
+				<span> 
+					<p>GrociQuest</p> 
+				</span> 
+			</div> 	
+			<nav>
+			<ul>
+                <li><a href="home.html#HOME">Home</a></li>
+				<li class="dropdown">
+					<a href="#">Groceries</a>
+					<div class="dropdown-content">
+						<a href="#vegges">vegges</a>
+						<a href="fruits.html">Fruits</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Snacks</a>
+					<div class="dropdown-content">
+						<a href="snacks.html">Snacks</a>
+						<a href="bar.html">Protienbar</a>
+						<a href="chocolate.html">Chocolate</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Drinks</a>
+					<div class="dropdown-content">
+						<a href="Drinks.html">SoftDrinks</a>
+						<a href="juices.html">Fruitjuices</a>
+					</div>
+				</li>
+				<li><a href="cart.html">Cart</a></li>
+				<span id="cart-count">0</span>
+
+            </ul>
+		</nav>
+	</header>
+	<header>
+			<div class="search"> 
+				<input type="text"placeholder="Search products...."> 
+				<button>Search</button> 
+			</div> 
+	</header> 
+
+	    <div class="container"> 
+		 <section> 
+			
+
+			<div class="category"> 
+				<div class="product" id="product1"> 
+					<div class="image-placeholder image-placeholder1"> 
+						<img src= "https://www.allthatgrows.in/cdn/shop/products/Carrot-Orange-00_grande.jpg?v=1598079711"alt="grocery"> 
+					</div> 
+					<h3>Carrot</h3> 
+					<p class="price">₹50/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable1"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable1" value = "1" min="1" max = "20"> 
+					</div> 
+					<div class="productbtns"> 
+						<button class="add-to-cart">Add to Cart</button>
+						<button> Buy Now </button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder2"> 
+						<img src= "https://www.allthatgrows.in/cdn/shop/products/Cherry-Tomato_1600x.jpg?v=1598080165"alt="grocery"> 
+					</div> 
+					<h3>Tomato</h3> 
+					<p class="price">₹75/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable2"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable2"value="1" min ="1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder3"> 
+						<img src= "https://cdn.pixabay.com/photo/2016/08/11/08/43/potatoes-1585060_960_720.jpg"alt="grocery"> 
+					</div> 
+					<h3>potato</h3> 
+					<p class="price">₹60/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable3"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable3"value="1" min ="1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder4"> 
+						<img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCjlN4e1aZFrUbPxHl3hZ59VO0LzPwDUdk8nQ4NWZ0w&s"alt="grocery"> 
+					</div> 
+					<h3>Brinjal</h3> 
+					<p class="price">₹65/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable4"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable4"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div>  
+
+			    <div class="product"> 
+					<div class="image-placeholder image-placeholder5"> 
+        				 <img src= "https://m.media-amazon.com/images/I/41Pi5dfvOoL.jpg"alt="grocery">
+					</div> 
+					<h3>onion</h3> 
+					<p class="price">₹110/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable5"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable5"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+				
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder6"> 
+        				 <img src= "https://img3.exportersindia.com/product_images/bc-full/2020/1/6779507/fresh-cauliflower-1578654754-5248843.jpeg"alt="grocery">
+					</div> 
+					<h3>Cauliflower</h3> 
+					<p class="price">₹70/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable6"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable6"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder7"> 
+        				 <img src= "https://media.istockphoto.com/id/1902432610/photo/sack-with-dried-garlic-bulbs-close-up-on-white-background.jpg?s=612x612&w=0&k=20&c=A6ulV-hZoM8z4AC2c-uucjuYOKQsPz7AjwUxtStzvUg="alt="grocery">
+					</div> 
+					<h3>Garlic (200g) </h3> 
+					<p class="price">₹55 (100g= ₹26)</p>
+					<p class="price">inc all taxes. </p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable7"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable7"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder8"> 
+        				 <img src= "https://cdn.pixabay.com/photo/2018/09/25/20/09/bush-beans-3702999_1280.jpg"alt="grocery">
+					</div> 
+					<h3>Beans 500g</h3> 
+					<p class="price">₹90</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable8"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable8"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder9"> 
+        				 <img src= "https://cdn.pixabay.com/photo/2016/03/28/22/43/kohl-1287093_1280.jpg"alt="grocery">
+					</div> 
+					<h3>cabbbage</h3> 
+					<p class="price">₹70/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable9"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable9"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder10"> 
+        				 <img src= "https://img.freepik.com/premium-photo/red-chili-peppers-bag_888396-1580.jpg"alt="grocery">
+					</div> 
+					<h3>Red dry chillis</h3> 
+					<p class="price"> ₹250(200g)</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable10"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable10"value="1" min = "1" max ="99"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder11"> 
+        				 <img src= "https://media.istockphoto.com/id/153564958/photo/colorful-peppers.jpg?s=612x612&w=0&k=20&c=7Ce6whyOFcnTQi74emPSwAdaXEcdMQI1JVNjfeTRP-Y="alt="grocery">
+					</div> 
+					<h3>Bellpepper(200g)</h3> 
+					<p class="price">₹120 </p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable11"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable11"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder12"> 
+        				 <img src= "https://vimafoods.com/wp-content/uploads/2020/05/mazorcas-maiz-choclo.jpg"alt="grocery">
+					</div> 
+					<h3>Sweet Corn (3pcs)</h3> 
+					<p class="price">₹50</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable12"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable12"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+					
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder13"> 
+        				 <img src= "https://www.justgotochef.com/uploads/1555911700-Green%20PeasGTC.png"alt="grocery">
+					</div> 
+					<h3>Green peas</h3> 
+					<p class="price">₹85/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable13"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable13"value="1" min = "1" max ="20"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder14"> 
+        				 <img src= "https://product-images.metro.ca/images/hfd/ha4/9316976001054.jpg"alt="grocery">
+					</div> 
+					<h3>Lemons</h3> 
+					<p class="price">₹20 (4pcs)</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable14"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable14"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+
+				<div class="product"> 
+					<div class="image-placeholder image-placeholder15"> 
+        				 <img src= "https://www.edobo.in/s/60a39f1801d30d79c4caa94b/648ae4772d2b17ea97c50c98/ew0052-640x640.png"alt="grocery">
+					</div> 
+					<h3>Baby corn</h3> 
+					<p class="price">₹65/kg</p> 
+					<div class="qyt"> 
+						<label for="quantity_vegetable15"> 
+							Quantity: 
+						</label> 
+						<input type="number"id="quantity_vegetable15"value="1" min = "1" max ="10"> 
+					</div> 
+					<div class="productbtns"> 
+						
+						<button class="add-to-cart">Add to Cart</button>
+						<button>Buy Now</button> 
+					</div> 
+				</div> 
+		</section> 
+		
+
+
+		
+	<footer> 
+		<p>© 2024 Grocery Store. 
+			All rights reserved. 
+		</p> 
+	</footer> 
+	<script src="vegges.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+		const addToCartButtons = document.querySelectorAll('.add-to-cart');
+	
+		
+		function addToCart(item) {
+			let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+			cartItems.push(item); 
+			localStorage.setItem('cartItems', JSON.stringify(cartItems)); 
+			updateCartCount(); 
+		}
+	
+		
+		function updateCartCount() {
+			const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+			document.getElementById('cart-count').textContent = cartItems.length;
+		}
+	
+		
+		addToCartButtons.forEach(button => {
+			button.addEventListener('click', function () {
+				const product = this.closest('.product');
+				const productName = product.querySelector('h3').textContent;
+				const productPrice = parseFloat(product.querySelector('.price').textContent.slice(1));
+				const productQuantity = parseInt(product.querySelector('input[type="number"]').value);
+				const productImage = product.querySelector('img').src;
+	
+				addToCart({ name: productName, price: productPrice, quantity: productQuantity, image: productImage });
+			});
+		});
+	
+		updateCartCount();
+	});
+	</script>
+</body>
+
+</html>
